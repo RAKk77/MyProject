@@ -1,0 +1,81 @@
+.text-col {
+  animation: colors 10s ease-in-out infinite;
+}
+@keyframes colors {
+  0% {
+    color: red;
+  }
+  20% {
+    color: aqua;
+  }
+  40% {
+    color: blue;
+  }
+  60% {
+    color: burlywood;
+  }
+  80% {
+    color: chartreuse;
+  }
+  100% {
+    color: blueviolet;
+  }
+}
+.anima-one {
+  animation: scales 3s ease-in-out infinite;
+}
+.anima-tow {
+  animation: one 4s ease-in-out infinite;
+}
+.anima-three {
+  animation: tow 3s ease-in-out infinite;
+}
+@keyframes scales {
+  from {
+    transform: translateY(0);
+    background: black;
+    color: white;
+    border: 2px solid white; /* Start from the original position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up */
+  }
+  to {
+    transform: translateY(0);
+    background: white;
+    color: black;
+    border: 2px solid black; /* Return to the original position */
+  }
+}
+@keyframes one {
+  from {
+    transform: translateY(0); /* Start from the original position */
+    background: black;
+    color: white;
+  }
+  50% {
+    transform: translateY(-15px); /* Move up */
+  }
+  to {
+    transform: translateY(0); /* Return to the original position */
+    background: white;
+    color: black;
+    border: 2px solid black;
+  }
+}
+@keyframes tow {
+  from {
+    transform: translateY(0);
+    background: black;
+    color: white; /* Start from the original position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up */
+  }
+  to {
+    transform: translateY(0);
+    background: white;
+    color: black;
+    border: 2px solid black; /* Return to the original position */
+  }
+}

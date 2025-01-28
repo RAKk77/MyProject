@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleShow = () => setAlert(!alert);
 
   return (
-    <div className="w-full m-auto bg-slate-100  border-b-2 shadow-2xl fixed top-0 md:flex md:w-[100%] md:justify-between md:m-auto ">
+    <div className="w-full m-auto bg-slate-300 backdrop-blur-md  border-b-2 shadow-2xl fixed top-0 md:flex md:w-[100%] md:justify-between md:m-auto ">
       <div className="flex justify-between px-3 py-2 items-center lg:px-[7rem]">
         <div
           className="flex w-[70%] gap-[2rem] justify-between items-center pr-[1.5rem] 
@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="Icone"
-              className="w-[200px] md:w-[220px] lg:w-[290px]"
+              className="w-[110px] md:w-[200px] lg:w-[290px]"
             />
           </Link>
           <img

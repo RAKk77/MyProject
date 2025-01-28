@@ -46,7 +46,7 @@ const Nlink = ({ alert, close }) => {
             <Facebook size={29} />
           </a>
           <a
-            href="#"
+            href="https://t.me/w9rak"
             className="p-2 hover:bg-slate-800 hover:text-white rounded-full active:scale-110 transition"
           >
             <MessageCircleMore size={29} />

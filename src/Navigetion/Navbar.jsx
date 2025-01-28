@@ -21,7 +21,7 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="Icone"
-              className="w-[120px] md:w-[220px] lg:w-[290px]"
+              className="w-[200px] md:w-[220px] lg:w-[290px]"
             />
           </Link>
           <img

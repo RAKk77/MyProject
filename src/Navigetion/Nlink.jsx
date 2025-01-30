@@ -7,13 +7,13 @@ const Nlink = ({ alert, close }) => {
   return (
     <>
       <nav
-        className={`pt-[1.8rem] md:inline-flex md:absolute md:right-0 md:top-[60%] md:-translate-y-[88%] ${
+        className={`pt-[1.8rem] md:inline-flex md:absolute md:right-0 md:top-[60%]  md:-translate-y-[88%] ${
           alert
             ? "animate__animated animate__bounceInDown" // Animation for showing
             : "hidden" // Animation for hiding
         } md:block`}
       >
-        <ul className="px-[20px] h-[462px] z-20 flex flex-col gap-5 md:flex-row md:gap-2 md:h-[55%] md:px-[10px] lg:px-[6rem] md:z-0 lg:z-0">
+        <ul className="px-[20px] h-[462px] z-50 flex flex-col gap-5 md:flex-row md:gap-2 md:h-[55%] md:px-[10px] lg:px-[6rem] md:z-0 lg:z-0">
           <Link
             onClick={() => close(false)} // Close Nlink when a link is clicked
             to="/"

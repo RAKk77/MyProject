@@ -13,9 +13,9 @@ const Review = () => {
     <div className="min-md:hidden">
       <Skill image={Html} name={"HTML"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[80%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[80%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[19px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               90%
             </p>
           </div>
@@ -24,9 +24,9 @@ const Review = () => {
       {/* CSS Card */}
       <Skill image={Css} name={"CSS"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[70%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[78%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[26px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               80%
             </p>
           </div>
@@ -35,9 +35,9 @@ const Review = () => {
       {/* Js Card */}
       <Skill image={Js} name={"JavaScript"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[70%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[75%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[39px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               70%
             </p>
           </div>
@@ -46,9 +46,9 @@ const Review = () => {
       {/* Taliwindcss Card */}
       <Skill image={Tailwind} name={"Tailwindcss"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[70%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[78%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[26px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               80%
             </p>
           </div>
@@ -57,9 +57,9 @@ const Review = () => {
       {/* Bootstrap card */}
       <Skill image={Bootstrap} name={"Bootstrap"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[75%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[78%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[30px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               75%
             </p>
           </div>
@@ -68,9 +68,9 @@ const Review = () => {
       {/* React Card */}
       <Skill image={Reactt} name={"ReactJS"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[70%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[75%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[39px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
               70%
             </p>
           </div>
@@ -79,10 +79,10 @@ const Review = () => {
       {/* PHP card */}
       <Skill image={Php} name={"PHP"}>
         <div className="w-[100%] h-2 rounded-4xl ml-3 bg-sky-100 m-auto my-3 relative">
-          <div className="max-w-[70%] h-2 bg-transparent bg-gradient-to-br from-red-600 to-yellow-600 "></div>
+          <div className="max-w-[75%] h-2 bg-transparent bg-gradient-to-l from-sky-700 to-pink-400 "></div>
           <div className=" w-12 text-center absolute -bottom-4 right-[39px] border-[2px] border-black rounded-full cursor-pointer">
-            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[14px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
-              90%
+            <p className="px-[9px] py-[12px] bg-slate-100 rounded-full text-[12px] font-bold text-col hover:bg-black hover:text-white active:bg-black active:text-white  transition">
+              70%
             </p>
           </div>
         </div>

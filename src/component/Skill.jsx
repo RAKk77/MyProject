@@ -12,7 +12,7 @@ const Skill = ({ image, name, children }) => {
               className="w-[121px] py-0 px-3  hover:scale-110 active:scale-105 transition"
             />
           </div>
-          <div className="w-[50%] items-center flex flex-col gap-3">
+          <div className="w-[50%] items-center flex flex-col gap-3 pr-4">
             <div className="text-[1.5rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-500 to-pink-900 animate-pulse">
               {name}
             </div>

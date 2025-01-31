@@ -53,24 +53,6 @@ const Profile = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[90%] m-auto my-6 flex flex-col gap-5">
-          <div
-            className=" text-[1.3rem] px-3 py-5 bg-transparent backdrop-blur-lg border-2 border-white rounded-3xl
-           bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text animate__animated animate__zoomInRight"
-          >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-            ratione nihil dolorem et. Corporis tempora excepturi porro, autem
-            labore saepe?
-          </div>
-          <div
-            className=" text-[1.3rem] px-3 py-5 bg-transparent backdrop-blur-lg border-2 border-white rounded-3xl 
-            bg-gradient-to-r from-blue-500 to-purple-700 text-transparent bg-clip-text animate__animated animate__zoomInRight"
-          >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
-            ratione nihil dolorem et. Corporis tempora excepturi porro, autem
-            labore saepe?
-          </div>
-        </div>
       </div>
       <Prolarg />
     </div>

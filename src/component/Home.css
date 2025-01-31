@@ -35,7 +35,7 @@
     transform: translateY(0);
     background: black;
     color: white;
-    border: 2px solid white; /* Start from the original position */
+    border: 3px solid white; /* Start from the original position */
   }
   50% {
     transform: translateY(-20px); /* Move up */
@@ -44,7 +44,7 @@
     transform: translateY(0);
     background: white;
     color: black;
-    border: 2px solid black; /* Return to the original position */
+    border: 3px solid black; /* Return to the original position */
   }
 }
 @keyframes one {
@@ -52,6 +52,7 @@
     transform: translateY(0); /* Start from the original position */
     background: black;
     color: white;
+    border: 3px solid white;
   }
   50% {
     transform: translateY(-15px); /* Move up */
@@ -68,6 +69,7 @@
     transform: translateY(0);
     background: black;
     color: white; /* Start from the original position */
+    border: 3px solid white;
   }
   50% {
     transform: translateY(-20px); /* Move up */
@@ -76,6 +78,6 @@
     transform: translateY(0);
     background: white;
     color: black;
-    border: 2px solid black; /* Return to the original position */
+    border: 3px solid black; /* Return to the original position */
   }
 }

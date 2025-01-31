@@ -3,7 +3,7 @@ import Photo from "../assets/Personal.png";
 const Prolarg = () => {
   return (
     <>
-      <div className="min-w-[70%] m-auto mt-[90px] max-lg:hidden flex justify-around  items-center">
+      <div className="min-w-[60%] m-auto mt-[90px] max-lg:hidden flex justify-around  items-center">
         <div className="flex flex-col gap-1 justify-center w-[60%] px-10 h-[60px]">
           <div className="my-3">
             <h2 className="text-[2.5rem] font-bold  font-mono bg-clip-text text-transparent bg-gradient-to-bl from-blue-800 to-pink-600 via-zinc-100 animate-pulse">
@@ -43,7 +43,7 @@ const Prolarg = () => {
           <img
             src={Photo}
             alt="Logo"
-            className="w-[450px] px-10 rounded-full bg-transparent backdrop-blur-md animate__animated animate__zoomIn border-[1px] border-white"
+            className="w-[500px] border-2 border-white rounded-full bg-transparent backdrop-blur-md animate__animated animate__zoomIn "
           />
         </div>
       </div>

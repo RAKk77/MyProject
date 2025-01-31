@@ -12,12 +12,12 @@ const Profile = () => {
           </h1>
         </div>
         {/* Small Screen on Above */}
-        <div className="md:w-[90%]  flex justify-between ">
-          <div className=" px-12 pb-14 flex justify-center overflow-hidden bg-transparent ">
+        <div className="md:w-[95%]  flex justify-between ">
+          <div className=" px-8 pb-16 flex justify-center overflow-hidden bg-transparent  ">
             <img
               src={Profiles}
               alt="Profile"
-              className=" w-[400px] my-1   animate__animated animate__zoomIn"
+              className=" w-[450px] my-2 border-3 border-white rounded-full bg-transparent backdrop-blur-sm  animate__animated animate__zoomIn"
             />
           </div>
         </div>
@@ -37,19 +37,19 @@ const Profile = () => {
 
       {/* Mediam Screen */}
       <div className="max-md:hidden w-full flex flex-col items-center  mt-[50px] min-lg:hidden">
-        <div className="flex">
+        <div className="w-full flex my-5 justify-around">
           <img
             src={Profiles}
             alt="Picture"
-            className="w-[400px] animate__animated animate__zoomIn"
+            className="w-[45%] border-2 border-white rounded-full bg-transparent backdrop-blur-sm animate__animated animate__zoomIn "
           />
-          <div className="flex flex-col items-center justify-center gap-10 text-center">
-            <h1 className="text-col px-5  text-white absolute top-40 right-1 text-[2rem] font-bold rounded-4xl overflow-hidden py-0  bg-transparent backdrop-blur-lg border-2 border-white">
-              My Name Is Yorn PheaReak
+          <div className="w-[50%] flex flex-col items-center justify-center gap-10 text-center">
+            <h1 className="text-col text-[2rem] font-bold px-10 py-2 overflow-hidden  bg-transparent backdrop-blur-lg border-2 border-white rounded-4xl">
+              Yorn PheaReak
             </h1>
-            <h1 className="text-[2rem] font-serif font-bold text-transparent bg-clip-text bg-gradient-to-l from-white to-blue-400 animate-pulse">
+            <h1 className="text-[2rem] font-serif font-bold  text-transparent bg-clip-text bg-gradient-to-l from-white to-blue-400 animate-pulse">
               I'm WebDeveloper
-              <div className="w-[100%] h-[4px] rounded-full bg-gradient-to-r from-blue-700 to-purple-600 via-pink-400"></div>
+              <div className="w-[100%]  h-[4px] rounded-full bg-gradient-to-r from-blue-700 to-purple-600 via-pink-400"></div>
             </h1>
           </div>
         </div>

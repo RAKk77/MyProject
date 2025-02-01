@@ -7,13 +7,13 @@ import Lgreview from "../component/Lgreview";
 
 const Home = () => {
   return (
-    <>
+    <div className="scroll-smooth">
       <Profile />
       <Description />
       <Review />
       <Mdreview />
       <Lgreview />
-    </>
+    </div>
   );
 };
 

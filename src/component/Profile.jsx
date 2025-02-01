@@ -4,7 +4,7 @@ import "./Home.css";
 import Prolarg from "./Prolarg";
 const Profile = () => {
   return (
-    <div className="relative -z-20">
+    <div className="relative scroll-smooth -z-20">
       <div className="w-full flex flex-col items-center md:hidden">
         <div className="bg-black rounded-2xl border-2 border-white mt-[75px] px-[20px] py-2 ">
           <h1 className="text-col text-[1.6rem] font-bold text-center ">

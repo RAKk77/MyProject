@@ -3,8 +3,8 @@ import { Children } from "react";
 const Skill = ({ image, name, children }) => {
   return (
     <>
-      <div className="w-[90%] m-auto border-1 border-white rounded-4xl bg-transparent backdrop-blur-sm p-1 my-3 animate__animated animate__zoomIn">
-        <div className="flex justify-around  rounded-4xl bg-transparent px-1 py-2 ">
+      <div className="w-[90%] m-auto border-1 border-white rounded-4xl bg-transparent backdrop-blur-sm p-1 my-3 animate__animated animate__zoomIn ">
+        <div className="flex justify-around  rounded-4xl bg-transparent px-1 py-2 animationcss">
           <div className="p-[2px]   transition ">
             <img
               src={image}

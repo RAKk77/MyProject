@@ -1,5 +1,11 @@
+import Information from "../AboutPages/Information";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div>
+      <Information />
+    </div>
+  );
 };
 
 export default About;

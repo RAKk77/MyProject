@@ -100,3 +100,21 @@
     /* clip-path: inset(0 0 0 0); */
   }
 }
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(to right, #e09a88, #7f62dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  100% {
+    background: linear-gradient(to left, #ff7e5f, #000653);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+.colorChange {
+  animation: colorChange 2s infinite alternate; /* Adjust duration as needed */
+}
